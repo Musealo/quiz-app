@@ -1,0 +1,28 @@
+.quiz-card {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  box-shadow: hotpink;
+  border: 1px solid black;
+}
+.question {
+  display: flex;
+  border: 1px solid black;
+  box-shadow: hotpink;
+  padding: 1rem;
+  margin: 1rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.tag {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.tags {
+  display: flex;
+  border: 1px solid black;
+}
