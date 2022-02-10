@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+body {
+  /*Font from body*/
+  font-family: "Roboto", sans-serif;
+  background: #eee;
+  font: 100% system-ui;
+  margin: 0;
+  height: auto;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: hotpink, -30px 0px 40px rgba(0, 0, 0, 0.1);
+}

@@ -1,9 +1,14 @@
 .quiz-card {
+  position: relative;
+  top: 1rem;
   display: flex;
   margin: auto;
   flex-direction: column;
   box-shadow: hotpink;
   border: 1px solid black;
+  width: 50vw;
+  padding: 1rem;
+
 }
 .question {
   display: flex;
@@ -22,7 +27,18 @@
   justify-content: space-evenly;
   flex-direction: row;
 }
+@media screen and (max-width: 600px) {
+  .tag {
+    flex-direction: column;
+  }
+}
 .tags {
   display: flex;
   border: 1px solid black;
+  padding: 1em;
+}
+.book {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
