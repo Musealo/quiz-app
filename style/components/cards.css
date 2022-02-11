@@ -2,13 +2,13 @@
   position: relative;
   top: 1rem;
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   flex-direction: column;
-  box-shadow: hotpink;
+  box-shadow: #03045e;
   border: 1px solid black;
   width: 50vw;
   padding: 1rem;
-
 }
 .question {
   display: flex;

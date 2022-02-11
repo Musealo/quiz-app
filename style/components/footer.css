@@ -6,7 +6,6 @@
   position: fixed;
   bottom: 0;
   width: 100vw;
-  border: 1px solid black;
   padding: 1rem;
   background-color: grey;
 }
