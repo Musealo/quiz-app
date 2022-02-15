@@ -8,6 +8,7 @@ body {
   font: 100% system-ui;
   margin: 0;
   height: auto;
+  max-width: 100%;
 }
 main {
   max-width: 900px;

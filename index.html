@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Quiz-App</title>
   </head>
   <body>
@@ -31,7 +32,15 @@
           /></a>
         </div>
         <div class="btn">
-          <button>Show Answer</button>
+          <button onclick="myFunction()">Show/Hide Answer</button>
+        </div>
+        <div id="answer">
+          <p display="none">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quo
+            quia, eligendi, eius, cumque deleniti rerum expedita labore
+            accusamus ex odit voluptatibus obcaecati unde odio magnam! Suscipit
+            voluptate minus assumenda.
+          </p>
         </div>
         <div class="tag">
           <p class="tags">Lorem</p>
@@ -152,7 +161,7 @@
     <footer>
       <div class="footer">
         <a href="#start">Start</a>
-        <a href="/question.html">Add Quiz</a>
+        <a href="/quiz-app/hello.html">Add Quiz</a>
         <a href="/profile.html">Profile</a>
         <a href="#">Lorem ipsum</a>
       </div>

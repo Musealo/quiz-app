@@ -2,3 +2,11 @@
 @import "style/components/cards.css";
 @import "style/components/head.css";
 @import "style/components/footer.css";
+
+header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin: auto;
+  padding: 40px;
+}
