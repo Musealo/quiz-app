@@ -2,14 +2,14 @@
   position: relative;
   top: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column;
   margin: auto;
-  flex-direction: column;
   box-shadow: #03045e;
   border: 1px solid black;
   width: 90%;
   padding: 1rem;
 }
+
 .question {
   display: flex;
   border: 1px solid black;
@@ -17,11 +17,13 @@
   padding: 1rem;
   margin: 1rem;
 }
+
 .btn1 {
   display: flex;
   justify-content: center;
   margin: 20px;
 }
+
 .tag {
   display: flex;
   justify-content: space-evenly;
@@ -32,11 +34,13 @@
     flex-direction: column;
   }
 }
+
 .tags {
   display: flex;
   border: 1px solid black;
   padding: 1em;
 }
+
 .book {
   position: absolute;
   top: 0;

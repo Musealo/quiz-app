@@ -1,6 +1,4 @@
 body {
-  /*Font from body*/
-  font-family: 'Roboto', sans-serif;
   background: #eee;
   font: 100% system-ui;
   margin: 0;
@@ -14,6 +12,7 @@ body {
   margin: 1rem;
   padding: 1rem;
 }
+
 .btn2 {
   margin-top: 1em;
 }
