@@ -1,9 +1,7 @@
-import DefaultHtml from "./card.default.html";
+import DefaultHtml from './card.default.html';
 
 export default {
-  title: "components/card",
+  title: 'components/card',
 };
 
 export const Default = () => DefaultHtml;
-
-

@@ -1,7 +1,7 @@
-import DefaultHtml from "./head.default.html";
+import DefaultHtml from './head.default.html';
 
 export default {
-  title: "components/head",
+  title: 'components/head',
 };
 
 export const Default = () => DefaultHtml;

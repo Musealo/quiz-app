@@ -1,7 +1,19 @@
+body {
+  /*Font from body*/
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+  font: 100% system-ui;
+  margin: 0;
+  height: auto;
+}
+
 .addprofile {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
   margin: 1rem;
   padding: 1rem;
+}
+.btn2 {
+  margin-top: 1em;
 }

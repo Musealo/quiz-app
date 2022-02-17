@@ -1,7 +1,7 @@
-@import "style/base.css";
-@import "style/components/cards.css";
-@import "style/components/head.css";
-@import "style/components/footer.css";
+@import 'style/base.css';
+@import 'style/components/cards.css';
+@import 'style/components/head.css';
+@import 'style/components/footer.css';
 
 header {
   display: flex;
