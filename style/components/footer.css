@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   position: fixed;
   bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  background-color: grey;
+  width: 100%;
+  padding: 1em;
+  background-color: #ccdbfd;
 }

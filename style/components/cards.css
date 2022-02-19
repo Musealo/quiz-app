@@ -3,11 +3,12 @@
   top: 1rem;
   display: flex;
   flex-flow: column;
-  margin: auto;
+  margin: auto auto 5em;
   box-shadow: #03045e;
   border: 1px solid black;
   width: 90%;
   padding: 1rem;
+  background-color: #d7e3fc;
 }
 
 .question {
@@ -45,4 +46,8 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.button2 {
+  background-color: gold;
 }
