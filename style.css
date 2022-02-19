@@ -3,10 +3,28 @@
 @import 'style/components/head.css';
 @import 'style/components/footer.css';
 
-header {
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  margin: auto;
-  padding: 40px;
+.btn {
+  background-color: #ccdbfd;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #abc4ff;
+}
+
+.book {
+  border: 5px solid black;
+}
+
+.addquizheader {
+  background-color: #d7e3fc;
+}
+
+.cardbodycolor {
+  background-color: #c1d3fe;
 }

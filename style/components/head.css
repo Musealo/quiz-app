@@ -1,6 +1,7 @@
 .header {
   display: flex;
   border: 1px solid black;
-  background-color: hotpink;
+  background-color: #edf2fb;
   justify-content: center;
+  width: 100%;
 }

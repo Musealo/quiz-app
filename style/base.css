@@ -3,14 +3,13 @@
 }
 
 body {
-  background: #eee;
+  background: #e2eafc;
   font: 100% system-ui;
   margin: 0;
   height: auto;
 }
 
 main {
-  max-width: 900px;
   margin: auto;
   box-shadow: 30px 0 40px rgba(0 0 0 10%), -30px 0 40px rgba(0 0 0 10%);
 }
