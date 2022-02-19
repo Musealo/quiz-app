@@ -1,6 +1,8 @@
-export function countChars(obj) {
+/* eslint-disable no-unused-vars */
+function countChars(obj) {
   document.getElementById('charNum').textContent =
     obj.value.length + ' characters';
+  countChars();
 }
 
 const collapseList = document.querySelectorAll('[data-js="collapse"]');
