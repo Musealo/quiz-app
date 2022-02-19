@@ -28,3 +28,10 @@
 .cardbodycolor {
   background-color: #c1d3fe;
 }
+
+@media screen and (max-width: 575px) {
+  .centered {
+    display: flex;
+    justify-content: center;
+  }
+}
